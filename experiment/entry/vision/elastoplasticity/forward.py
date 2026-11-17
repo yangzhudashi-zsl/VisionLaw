@@ -97,7 +97,7 @@ def forward(path: str, config: str, model_dir: str, scene_name: str, unknown_arg
     elasticity.eval()
     
     cfg.dataset.data.skip_frames = 1
-    cfg.dataset.data.used_views = args.debug_views
+    # Preserve the configured views (synthetic d_0, real r_1).
     guidance = VideoGuidance(cfg.dataset)
     print("\n===================================")  
     print(f'Loading initial velocity from checkpoint ...\n')
@@ -248,6 +248,5 @@ if __name__ == '__main__':
     args, unknown_args = parser.parse_known_args()
     
     scene_name = args.config.split('.')[0].split('-')[-1]
-    args.debug_views = ['d_0']
     metrics = forward(args.path, args.config, args.model_dir, scene_name, unknown_args)
     print(metrics)

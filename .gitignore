@@ -199,3 +199,16 @@ dmypy.json
 
 ## VS Code
 /.vscode
+
+# Local deployment, external sources, data and experiment outputs
+/.envs/
+/gaussian-splatting/
+/data/
+/datasets/
+/runs/
+/results/
+/experiment/log/
+/deployment/configs/
+/deployment/reports/
+/deployment/.env
+/deployment/*.local.*

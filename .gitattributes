@@ -1,0 +1,5 @@
+# Keep shell scripts executable by bash after a Windows checkout/transfer.
+*.sh text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf

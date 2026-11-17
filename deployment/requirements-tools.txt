@@ -1,0 +1,2 @@
+# Windows/local configuration tools only. No project import or GPU use.
+PyYAML==6.0.2

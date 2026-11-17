@@ -15,6 +15,13 @@ VisionLaw is a framework for inferring interpretable intrinsic physical dynamics
 
 ## Getting Started
 
+For the prepared Chinese deployment workflow, start with
+[本地准备与服务器操作流程](deployment/README_ZH.md).
+It includes corrected dependencies, data-layout checks and single-seed launch
+commands. The upstream runtime requires Linux; Windows is used for source and
+configuration preparation. Preparing this workflow does not establish a paper
+reproduction or a successful runtime experiment.
+
 ### Installation
 
 Clone the repository:

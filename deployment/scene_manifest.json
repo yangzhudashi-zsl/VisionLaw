@@ -1,0 +1,10 @@
+{
+  "bb": {"dataset": "BouncyBall", "asset": "bouncyball", "camera_type": "NeuMASynthetic"},
+  "cc": {"dataset": "ClayCat", "asset": "claycat", "camera_type": "NeuMASynthetic"},
+  "hb": {"dataset": "HoneyBottle", "asset": "honeybottle", "camera_type": "NeuMASynthetic"},
+  "jd": {"dataset": "JellyDuck", "asset": "jellyduck", "camera_type": "NeuMASynthetic"},
+  "rp": {"dataset": "RubberPawn", "asset": "rubberpawn", "camera_type": "NeuMASynthetic"},
+  "sf": {"dataset": "SandFish", "asset": "sandfish", "camera_type": "NeuMASynthetic"},
+  "bun": {"dataset": "bun", "asset": "real-bun", "camera_type": "RealCapture"},
+  "burger": {"dataset": "burger", "asset": "real-burger", "camera_type": "RealCapture"}
+}
